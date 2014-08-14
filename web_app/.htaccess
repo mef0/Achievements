@@ -1,0 +1,26 @@
+
+RewriteEngine On    # Turn on the rewriting engine
+
+
+RewriteRule    ^(.*)/home?$								index.php?server=$1&pg=hom					[NC,L]
+RewriteRule    ^(.*)/leaderboards?$						index.php?server=$1&pg=ldr					[NC,L]
+
+RewriteRule    ^(.*)/search/(.*)?$						index.php?server=$1&pg=sch&searchinput=$2	[NC,L]
+
+RewriteRule    ^(.*)/player/(.*)/overview?$				index.php?server=$1&pg=ovr&plr=$2			[NC,L,B]
+RewriteRule    ^(.*)/player/(.*)/all_achievements?$		index.php?server=$1&pg=cat&plr=$2			[NC,L,B]
+RewriteRule    ^(.*)/player/(.*)/category/(.*)?$		index.php?server=$1&pg=cat&plr=$2&cat_id=$3	[NC,L,B]
+RewriteRule    ^(.*)/player/(.*)/statistics?$			index.php?server=$1&pg=sts&plr=$2			[NC,L,B]
+
+
+
+
+RewriteRule    ^(.*)/home/?$							index.php?server=$1&pg=hom					[NC,L]
+RewriteRule    ^(.*)/leaderboards/?$					index.php?server=$1&pg=ldr					[NC,L]
+
+RewriteRule    ^(.*)/search/(.*)/?$						index.php?server=$1&pg=sch&searchinput=$2	[NC,L]
+
+RewriteRule    ^(.*)/player/(.*)/overview/?$			index.php?server=$1&pg=ovr&plr=$2			[NC,L]
+RewriteRule    ^(.*)/player/(.*)/all_achievements/?$	index.php?server=$1&pg=cat&plr=$2			[NC,L]
+RewriteRule    ^(.*)/player/(.*)/category/(.*)/?$		index.php?server=$1&pg=cat&plr=$2&cat_id=$3	[NC,L]
+RewriteRule    ^(.*)/player/(.*)/statistics/?$			index.php?server=$1&pg=sts&plr=$2			[NC,L]

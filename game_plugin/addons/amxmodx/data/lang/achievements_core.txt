@@ -1,0 +1,13 @@
+[en]
+CMD_STATUS = !g%s!n Status: !t
+STATUS_ERROR = Error
+STATUS_LOADED = Loaded
+STATUS_LOADED_NOT = Not loaded, contact administrator
+NOT_ENOUGH_PLAYERS = Not enough players. Required amount of players: %d
+COMPLETED_AC_PLAYER = !g%s!n You've completed achievement !t%s!n
+COMPLETED_AC_TOKENS = !g%s!n You've gained !t%d!n Tokens. You now have !t%d!n Tokens total.
+COMPLETED_AC_ALL = !g%s %s completed achievement !t%s!n!
+MANUAL_SAVE_COOLDOWN = !g%s !nYou recently used the !tManual Save!n function. Please wait !t%d more seconds.
+PLAYER_NOT_LOADED = !g%s !nYour profile has not been loaded. Please try again in a few seconds, reconnect or contact administrator.
+MANUAL_SAVING_PROGRESS = !g%s !tSaving your data. Please wait...
+SAVING_DONE = !g%s !tSave completed.
