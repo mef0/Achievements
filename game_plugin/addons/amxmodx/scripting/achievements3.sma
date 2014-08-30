@@ -3,7 +3,7 @@
 #include <achievements3>
 
 const MAXPLAYERS = 32
-
+LOLZ 2
 new Class:g_hAcList, Class:g_hAcProgress
 new Class:g_hStatList, Class:g_hStatProgress
 
